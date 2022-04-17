@@ -68,7 +68,6 @@ class ProductController extends AbstractController
     {
         $products = $ProductRepository->natives($dm);
         $i =0;
-        $tesgit = 0;
         $results = [];
         foreach($products as $product)
         {
